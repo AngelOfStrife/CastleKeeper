@@ -5,6 +5,10 @@ using UnityEngine;
 public class NodeController : MonoBehaviour
 {
 
+    public GameObject lane01;
+    public GameObject lane02;
+    public GameObject lane03;
+
     public GameObject[] Lane01;
     public GameObject[] Lane02;
     public GameObject[] Lane03;

@@ -1497,6 +1497,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 494149177}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &494149179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1427498880542612971, guid: 073ed5a430d445949939bc1f508a83a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 494149177}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &496984201
 GameObject:
   m_ObjectHideFlags: 0
@@ -3443,6 +3449,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81760bbba7db1c245baea8344d0a1c0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lane01: {fileID: 7865008879439291640}
+  lane02: {fileID: 1584862187}
+  lane03: {fileID: 494149179}
+  Lane01: []
+  Lane02: []
+  Lane03: []
 --- !u!1001 &1296656309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4354,6 +4366,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1584862185}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1584862187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1427498880542612971, guid: 073ed5a430d445949939bc1f508a83a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1584862185}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1593202544
 GameObject:
   m_ObjectHideFlags: 0
@@ -4422,6 +4440,7 @@ MonoBehaviour:
   currentTurn: 41
   displayScoreText: {fileID: 1429605069}
   displayScore: {fileID: 2008725327}
+  displayTurn: {fileID: 0}
 --- !u!224 &1763881194 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5481331781322485478, guid: 4703de5f59c63a14281f0f7e5172d6d2,
@@ -5536,3 +5555,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 073ed5a430d445949939bc1f508a83a4, type: 3}
+--- !u!1 &7865008879439291640 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1427498880542612971, guid: 073ed5a430d445949939bc1f508a83a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 7865008879439291639}
+  m_PrefabAsset: {fileID: 0}
