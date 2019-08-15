@@ -6,13 +6,12 @@ public class EnemySpawn : MonoBehaviour
 {
     public Transform spawnPos;
     public GameObject spawnObject;
+    public GameObject spawnLane;
     public bool spawnable; //check if spawn area is avaliable, do not stack spawnObjects
 
     private void Awake()
     {
-        spawnable = false;
-
-        
+        spawnable = false;        
     }
 
     // Update is called once per frame
